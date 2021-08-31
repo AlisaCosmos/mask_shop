@@ -1,0 +1,23 @@
+.page {
+    height: 100%;
+    font-size: 14px;
+    font-family: "Roboto", Arial, sans-serif;
+
+}
+
+// от 350px мобильная версия (320px основной контент+ 15px на отступы по бокам)
+.page__body {
+    min-width: 320px;
+    // height: 100%;
+    margin: 0;
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    color: #000000;
+    //background-image: url(../../img/modile/flag-italy_bg.png);
+    // background-repeat: no-repeat;
+    //background-size: cover;
+
+}

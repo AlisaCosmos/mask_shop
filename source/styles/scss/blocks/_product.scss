@@ -1,0 +1,109 @@
+.product {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product__name_wrapper {
+    width: 320px;
+    max-height: 110px;
+
+
+    display: flex;
+    font-display: column;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    border-top: 20px solid #029044;
+    border-bottom: 20px solid #D51D21;
+
+}
+
+.product__title {
+    width: 293px;
+    min-height: 32px;
+    margin: 0;
+}
+
+.title {
+    font-weight: $product-title-weight;
+    font-size: $product-title-size;
+    color: $product-title-color;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.product__subtitle {
+    width: 293px;
+    min-height: 32px;
+    margin: 0;
+}
+
+.subtitle {
+    font-weight: $product-subtitle-weight;
+    font-size: $product-subtitle-size;
+    color: $product-subtitle-color;
+    text-align: center;
+
+}
+
+.product__img_wrapper {
+    width: 320px;
+    height: 163px;
+
+}
+
+.product__desc_wrapper {
+    width: 320px;
+    height: 44px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.desc {
+    background: #F98000;
+}
+
+.product__text {
+    width: 65%;
+
+
+}
+
+.text {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.product__made {
+    font-weight: 700;
+}
+
+.product__advantage_wrapper {
+
+    width: 320px;
+    min-height: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.advantage {
+    padding-top: 3px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FF0000;
+
+
+}

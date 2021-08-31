@@ -1,0 +1,23 @@
+.button {
+    width: 216px;
+    height: 48px;
+
+    border: none;
+    border-radius: $button-border-radius;
+    background: $button-background-color;
+    box-shadow: $button-background-shadow;
+
+    font-family: "Roboto";
+    font-weight: $button-text-weight;
+    font-size: $button-text-size;
+    text-transform: uppercase;
+    color: $button-text-color;
+    text-shadow: $button-text-shadow;
+    letter-spacing: -1px;
+
+    &:hover {
+        background: lighten(#FF0000, 7%);
+
+    }
+
+}

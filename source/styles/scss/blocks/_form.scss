@@ -1,0 +1,25 @@
+.form {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.stock {
+    width: 124px;
+    height: 16px;
+
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #D51D21;
+}
+
+.stock_sum {
+    font-weight: 700;
+    color: black;
+}
